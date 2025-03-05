@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color:lightcyan;
+}
+.portal{
+    color: blueviolet;
+}
+.sub-heading{
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    width: 350px;
+    height: 320px;
+    background-color: aliceblue;
+    box-shadow: 0 0 5px 1px gray;
+    border-radius: 10px;
+    
+}
+.post-credit{
+    width: 350px;
+    height: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.form-head{
+    width: 80% ;
+    text-align: start;
+    font-size: 14px;
+    font-weight: bold;
+}
+.inputs{
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px gray;
+}
+.inputs:focus{
+    outline: none;
+    border: 1px groove cadetblue;
+}
+
+button{
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: steelblue;
+    box-shadow: 0 0 1px 1px steelblue;
+    font-size: 16px;
+    font-weight: 600;
+}
+button:active{
+    box-shadow: 0 0 2px 2px steelblue;
+}
+
+.checkbox-container{
+    width: 100%;
+    padding: 0 0 0 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+}
+.checkbox-container input{
+    width: 16px;
+    height: 16px;
+}
+
+.error{
+    width: 80%;
+    color: red;
+    text-align: start;
+    margin-top: -20px;
+    font-size: 13px;
+}
